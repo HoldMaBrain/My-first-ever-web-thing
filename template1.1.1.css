@@ -1,0 +1,175 @@
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(pink, red);
+    -webkit-background-clip: Text;
+    background-clip: Text;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    z-index: -50;
+    position: absolute;
+    top: 8vw;
+    left: 43vw;
+    font-family: fantasy;
+    font-size: 2.7vw;
+    animation: headings 3s linear infinite;
+    
+}
+
+h2{
+    text-align: center;
+    background-image: linear-gradient(pink, red);
+    -webkit-background-clip: Text;
+    background-clip: Text;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    z-index: -50;
+    position: absolute;
+    top: 12vw;
+    left: 46vw;
+    font-family: cursive;
+    font-size: 2.3vw;
+    animation: headings 2s linear infinite;
+}
+#back{
+    width: 97vw;
+    height: 100vw;
+    background-image: radial-gradient(rgb(222, 255, 192) 65%, powderblue);
+    z-index: -70;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    right: 0.1vw;
+    border:0.9843vw solid royalblue;
+    border-radius: 10%;
+
+    
+}
+
+.cylinder{
+    
+    height: 22vw;
+    width: 22vw;
+    background-color: powderblue;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 40%;
+    position: absolute;
+    top: 16vw;
+    left: 16vw;
+    border: 1vw solid salmon;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -50;
+        
+    
+}
+.circle-content{
+    position: absolute;
+    font-family: fantasy;
+    position: absolute;
+    left: 19vw;
+    top: 18vw;
+    line-height: 2vw;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -40;
+}
+
+.circle-morecontent{
+    background-image: linear-gradient(rgba(2, 192, 255, 1), red);
+    -webkit-background-clip: Text;
+    background-clip: Text;
+    color: transparent;
+    position: absolute;
+    top: 27vw;
+    left: 19vw;
+    font-family: algerian;
+    line-height: 2vw;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -40;
+}
+
+.background2{
+    
+    background-color: aqua;
+    width: 75vw;
+    height: 92vw;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    border: 0.5vw solid  red;
+    z-index: -60;
+}
+
+/* .header{
+    width: 1180px;
+    height: 360px;
+    background-image: linear-gradient(orange, pink );
+    border-radius: 10%;
+    z-index: -55;
+    position: absolute;
+    top: 285px;
+    left: 210px;
+    border: 10px dotted pink;
+    border-top: 10px dotted orange;
+} */
+
+/* #circle{
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    border-radius: 50%;
+    z-index: 50;
+    position: absolute;
+    top: 120px;
+    left:795px;
+    border: none;
+    animation: ball 2s linear infinite;
+} */
+
+
+/* @keyframes headings{
+    0%{transform: translateY(0px);}
+    40%{transform: translateY(0px);}
+    54%{transform: translateY(50px); transform: translateX(2px);}
+    68%{transform: translateY(10px);}
+    100%{transform: translateY(0px);}
+    10%{transform: translateX(5px);}
+    20%{transform: translateX(-5px);}
+    30%{transform: translateX(5px);}
+    35%{transform: translateX(-5px);}
+    80%{transform: translateX(5px);}
+    90%{transform: translateX(-5px);}
+
+
+} */
+
+/* @keyframes ball{
+    0%{transform: translateY(-10px);}
+    2%{transform: translateY(0px);}
+    53%{transform: translateY(0px);}
+    99%{transform: translateY(-10px);} 
+    100%{transform: translateY(-400px);}
+
+} */
+
+@keyframes box{
+    10%{transform: translateX(11px);}
+    20%{transform: translateX(-12px);}
+    50%{transform: translateY(12px);}
+    75%{transform: translateY(-11px);}
+    100%{transform: translateY(-11px); transform: translateX(11px); transform: translateY(11px); transform: translateX(-11px); }
+}
